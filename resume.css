@@ -1,0 +1,332 @@
+.josefin-sans {
+    font-optical-sizing: auto;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+ .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+html::-webkit-scrollbar{
+    display: none;
+}
+  
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+  
+header{
+    background: #ffbb09;
+    padding: 1.5rem;
+    box-shadow: 0px 8px 4px 2px #09252d;
+}
+.head_wrapper{
+    display: flex;
+    width: 100%;
+}
+@media only screen and (max-width: 500px) {
+    .head_wrapper {
+      flex-wrap: wrap;
+    }
+    .header_nav{
+      margin-left: 0;
+    }
+}
+  
+.head_wrapper > *{
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    left: 1rem;
+    top: -14px;
+    width: 125px;
+    height: 75px;
+}
+.header_nav{
+    margin-left: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_nav > *{
+    text-decoration: none;
+    color: #0c2f39;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    margin-inline: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.header_nav > a:hover{
+    color: #1e758d;
+    text-decoration: underline;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    background: #0c2f39;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.work_title{
+    background: #1e758d;
+    padding: 1rem;
+    padding-left: 4rem;
+    box-shadow: 0px 10px 15px 8px #09252d;
+    position: relative;
+    letter-spacing: 1px;
+}
+.work_experience{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    margin-block: 2rem;
+    margin-inline: 4rem;
+    padding-bottom: 1rem;
+}
+.job{
+    padding: 1rem;
+    max-width: 800;
+    border-right: 4px solid #ffd76f;
+}
+.last{
+    border-right: none;
+}
+.job_head_wrapper{
+    border-bottom: 3px solid #1e758d;
+}
+.job_title{
+    margin: 0;
+    letter-spacing: 0.75px;
+}
+.job_date{
+    letter-spacing: 0.75px;
+    margin-top: 0.25rem;
+}
+li::marker{
+    color: #1e758d;
+    font-size: 1.25rem;
+}
+.work_experience::-webkit-scrollbar{
+    background: #0a2830;
+    height: 10px;
+    border-radius: 5px;
+}
+.work_experience::-webkit-scrollbar-thumb{
+    background: #ffbb09;
+    height: 10px;
+    border-radius: 5px;
+}
+.skills_title{
+    background: #1e758d;
+    width: fit-content;
+    padding: 1rem;
+    padding-inline: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    letter-spacing: 1px;
+}
+.skills_content_wrapper{
+    display: flex;
+    margin-inline: 4rem;
+    margin-bottom: 2rem;
+}
+.skills{
+    width: 50%;
+    border-left: 4px solid #ffd76f;
+}
+.education_title{
+    background: #1e758d;
+    padding: 1rem;
+    padding-left: 4rem;
+    box-shadow: 0px 10px 15px 8px #09252d;
+    position: relative;
+    letter-spacing: 1px;
+}
+.education_content_wrapper{
+    margin-inline: 4rem;
+    margin-block: 2rem;
+    display: flex;
+}
+.school{
+    width:50%;
+    display: flex;
+    padding: 1rem;
+    border-right: 4px solid #ffd76f;
+}
+.school_content{
+    width: 100%;
+}
+.school_head_wrapper{
+    border-bottom: 3px solid #1e758d;
+}
+.school_title{
+    margin: 0;
+    letter-spacing: 0.75px;
+}
+.school_date{
+    letter-spacing: 0.75px;
+    margin-top: 0.25rem;
+}
+.school_logo{
+    width: 200px;
+    padding-left: 2rem;
+}
+.school_logo>img{
+    height:150px;
+}
+.last{
+    border-right: none;
+}
+.volunteer_title{
+    background: #1e758d;
+    width: fit-content;
+    padding: 1rem;
+    padding-inline: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    letter-spacing: 1px;
+}
+.volunteer_content_wrapper{
+    margin-inline: 4rem;
+    margin-bottom: 2rem;
+}
+.cocurr_wrapper{
+    display: flex;
+    width: 100%;
+}
+.cocurr_head_wrapper{
+    border-bottom: 3px solid #1e758d;
+}
+.cocurr_title{
+    margin: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 0.75px;
+}
+.cocurr_img{
+    padding-inline: 7.2rem;
+}
+.cocurr_img>img{
+    height: 200px;
+}
+.volunteering_wrapper{
+    display: flex;
+    width: 100%;
+}
+.volunteering_content{
+    width: 100%;
+}
+.volunteering_head_wrapper{
+    border-bottom: 3px solid #1e758d;
+}
+.volunteering_title{
+    margin: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 0.75px;
+}
+.volunteering_img{
+    padding-right: 3rem;
+}
+.volunteering_img>img{
+    height:100px;
+}
+.awards_title{
+    background: #1e758d;
+    padding: 1rem;
+    padding-left: 4rem;
+    box-shadow: 0px 10px 15px 8px #09252d;
+    position: relative;
+    letter-spacing: 1px;
+}
+.awards_content_wrapper{
+    margin-inline: 4rem;
+    margin-block: 2rem;
+}
+.awards_content{
+    border-left: 4px solid #ffd76f;
+}
+.download_wrapper{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+.download_link{
+    color: #ffbb09;
+}
+
+
+footer{
+    background: #0c2f39;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+.bar{
+    width: 100%;
+    height: 3px;
+    background: #ffbb09;
+}
+.contact{
+    padding: 1rem 0 0 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer_title{
+    margin: 0 0 0 1rem;
+    text-align: center;
+    color: #ffbb09;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.footer_nav{
+    margin-left: 2rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_nav > a{
+    text-decoration: none;
+    color: #ffbb09;
+    font-size: 1.25rem;
+    margin-inline: 1rem;
+    margin-block: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.footer_nav > a:hover{
+    color: #ffd76f;
+    text-decoration: underline;
+}
