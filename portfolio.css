@@ -172,6 +172,10 @@ li::marker{
 .download_link{
     color: #ffbb09;
 }
+.download_link:hover{
+    color: #ffd76f;
+    text-decoration: underline;
+}
 
 
 footer{
