@@ -126,6 +126,10 @@ body{
     margin: 0;
     letter-spacing: 0.75px;
 }
+.tab{
+    display: inline-block;
+    margin-left: 18rem;
+}
 .job_date{
     letter-spacing: 0.75px;
     margin-top: 0.25rem;
@@ -272,6 +276,67 @@ li::marker{
 .awards_content{
     border-left: 4px solid #ffd76f;
 }
+.certification_title{
+    background: #1e758d;
+    padding: 1rem;
+    padding-left: 4rem;
+    box-shadow: 0px 10px 15px 8px #09252d;
+    position: relative;
+    letter-spacing: 1px;
+}
+.certification_content_wrapper{
+    margin-inline: 4rem;
+    margin-block: 2rem;
+    display: flex;
+}
+.cert{
+    width:50%;
+    display: flex;
+    padding: 1rem;
+    border-right: 4px solid #ffd76f;
+}
+.school_content{
+    width: 100%;
+}
+.cert_head_wrapper{
+    border-bottom: 3px solid #1e758d;
+}
+.cert_title{
+    margin: 0;
+    letter-spacing: 0.75px;
+}
+.cert_title>a{
+    text-decoration: none;
+    color:white;
+}
+.cert_title>a:hover{
+    text-decoration: none;
+    color: #ffbb09;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.cert_issuer{
+    letter-spacing: 0.75px;
+    margin-top: 0.75rem;
+    margin-bottom: 0;;
+}
+.cert_date{
+    letter-spacing: 0.75px;
+    margin-top: 0.125rem;
+}
+.cert_logo{
+    width: 200px;
+    padding-left: 2rem;
+}
+.cert_logo>img{
+    height:120px;
+    border:8px solid #ffbb09;
+    box-shadow: 0px 0px 8px 8px #09252d;
+}
+.last{
+    border-right: none;
+}
 .download_wrapper{
     margin-bottom: 1.5rem;
     width: 100%;
@@ -279,6 +344,10 @@ li::marker{
 }
 .download_link{
     color: #ffbb09;
+}
+.download_link:hover{
+    color: #ffd76f;
+    text-decoration: underline;
 }
 
 
